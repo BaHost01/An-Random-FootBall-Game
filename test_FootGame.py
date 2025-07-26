@@ -2,7 +2,7 @@
 import pytest
 import os
 import json
-from test_FootGame.py import Ball, SkillSystem, Player, PlayerType, ControlType, SaveSystem
+from FootGame.py import Ball, SkillSystem, Player, PlayerType, ControlType, SaveSystem
 
 # Test Ball boundary and goal detection
 def test_ball_goals_and_bounce(tmp_path):
